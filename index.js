@@ -8,7 +8,7 @@
 import { question, rl } from "./question.js";
 import { request } from "./request.js";
 
-const name = await question("What is your name");
+const name = await question("What is your name : ");
 const answer = await question(
   `Hi, ${name}, wanna hear some Chuck Norris jokes?[Y/N]`
 );
